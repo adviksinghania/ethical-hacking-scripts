@@ -19,3 +19,8 @@ A collection of Python scripts made for use in ethical hacking.
 - packet_sniffer.py: HTTP Packet sniffing using ScaPy.
 
 - ssh_bruteforce.py: Bruteforcing SSH Login using paramiko.
+
+
+## Contributing
+
+Pull requests are welcome, please read our ![CONTRIBUTING.md](./CONTRIBUTING.md) file.

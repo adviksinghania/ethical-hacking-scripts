@@ -23,4 +23,4 @@ A collection of Python scripts made for use in ethical hacking.
 
 ## Contributing
 
-Pull requests are welcome, please read our ![CONTRIBUTING.md](./CONTRIBUTING.md) file.
+Pull requests are welcome and also go through the [CONTRIBUTING.md](https://github.com/adviksinghania/ethical-hacking-scripts/blob/main/CONTRIBUTING.md) file for more information.

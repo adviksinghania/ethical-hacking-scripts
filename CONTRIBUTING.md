@@ -1,9 +1,31 @@
-# Contributing
+# Contributing Guidelines
 
 When contributing to this repository, for major changes, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Please note we have a **[Code of conduct](#code-of-conduct)**, please follow it in all your interactions with the project.
+
+## Before you contribute
+
+Our aim is to **keep it simple** for the developers to contribute to this project.
+
+## How to contribute
+
+1. First up you need to fork (make a copy) of this repo to your Github account.
+
+2. Clone (download) your fork to your computer.
+
+3. Set your streams so you can sync your clone with the original repo (get the latest updates)
+
+   - `git remote add upstream https://github.com/Ashutosh00710/github-readme-activity-graph`
+   - `git pull upstream main`
+   - The above 2 commands will synchronize your forked version of the project with the actual repository.
+
+4. Create a branch `git checkout -b <your_branch_name>`.
+
+5. Commit and push the code to your fork.
+
+6. Create a pull request to have the changes merged from your fork into the origin.
 
 ## Pull Request Process
 
@@ -13,6 +35,24 @@ Please note we have a code of conduct, please follow it in all your interactions
    variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this
    Pull Request would represent.
+
+## Report bug/errors using Github **Issues**.
+
+We use GitHub issues to track public bugs. Report a bug by `opening a new issue` , it's that simple!
+
+## Write bug reports with detail, background, and sample code
+
+**Great Bug Reports** tend to have:
+
+- A quick summary and/or background
+- Steps to reproduce
+  - Be specific!
+  - Give a sample code if you can.
+- What you expected would happen
+- What actually happens
+- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
+People _love_ thorough bug reports.
 
 
 ## Code of Conduct

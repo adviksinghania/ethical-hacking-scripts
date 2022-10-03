@@ -1,0 +1,8 @@
+argparse
+dnspython
+regex
+sockets
+datetime
+paramiko
+futures
+scapy

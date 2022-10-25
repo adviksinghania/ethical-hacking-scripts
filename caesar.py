@@ -8,14 +8,11 @@ def encrypt(s):  # Function for encrypting the text
     print('\nEncrypted text output :', end=' ')
     for x in s:  # Repeating the loop for each character in the string
         if x.isalpha():  # Check if the chracter is an alphabet (irrespective of the case)
-            var = ord(x)  # If True, then process the ASCII value of the shifted character
-            var += n
+            var = n + ord(x)  # If True, then process the ASCII value of the shifted character
             if var > 90:
                 var -= 26
-
-            if var < 65:
+            elif var < 65:
                 var += 26
-
             print(chr(var), end='')  # And print the shifted character
         else:
             print(x, end='')  # Else print the character as it is
@@ -27,11 +24,10 @@ def decrypt(s):  # Function for decrypting the text
     print('\nDecrypted text output :', end=' ')
     for x in s:  # Repeating the loop for each character in the string
         if x.isalpha():  # Check if the chracter is an alphabet (irrespective of the case)
-            var = ord(x)  # If True, then process the ASCII value of the shifted character
-            var -= n
+            var = ord(x)-n  # If True, then process the ASCII value of the shifted character
             if var > 90:
                 var -= 26
-            if var < 65:
+            elif var < 65:
                 var += 26
 
             print(chr(var), end='')  # And print the shifted character
